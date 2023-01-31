@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu scenes/Start menu scene.unity
     guid: 92f3d1bf24592e2459b2af0cc88c114c
   - enabled: 1
-    path: Assets/Scenes/UI Building for the scenes!!!!!!!!/Scene 1.unity
+    path: Assets/Scenes/UI Building for the scenes!!!!!!!!/MainScene.unity
     guid: e036705ed02241041b0f0de5ddcb83c9
   - enabled: 1
     path: Assets/Scenes/Menu scenes/End screen scene.unity
