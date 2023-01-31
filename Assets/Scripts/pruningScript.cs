@@ -6,6 +6,7 @@ using UnityEngine;
 public class pruningScript : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private float thrust = 5f;
     
     void Start()
     {
@@ -20,12 +21,14 @@ public class pruningScript : MonoBehaviour
          if (gameObject.CompareTag("behead"))
          {
              rb.gravityScale = 1f;
-         }
-         else
-         {
-             rb.gravityScale = 0.0f;
+             rb.AddForce(transform.up * thrust, ForceMode2D.Impulse);
          }
          
+         if (gameObject.CompareTag("stay"))
+         {
+             rb.gravityScale = 1f;
+             rb.AddForce(transform.up * thrust, ForceMode2D.Impulse);
+         }
      }
     
 }
