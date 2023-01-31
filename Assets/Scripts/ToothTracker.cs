@@ -19,7 +19,14 @@ public class ToothTracker : MonoBehaviour
                 {
                     teethCollected++;
                     print(teethCollected);
-                    hit.collider.gameObject.SetActive(false);
+                    BoxCollider2D col = hit.collider.gameObject.GetComponent<BoxCollider2D>();
+                    SpriteRenderer ren = hit.collider.gameObject.GetComponent<SpriteRenderer>();
+                    AudioSource aud = hit.collider.gameObject.GetComponent<AudioSource>();
+                    col.enabled = false;
+                    ren.enabled = false;
+                    aud.Play();
+                    
+                    //hit.collider.gameObject.SetActive(false);
                 }
             }
         }
