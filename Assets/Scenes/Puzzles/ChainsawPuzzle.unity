@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeTotal: 10
-  step: 0.2
+  step: 0.01
   log: 0
   timerRunning: 0
   timer: {fileID: 627527998}
