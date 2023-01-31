@@ -5,9 +5,12 @@ using UnityEngine;
 public class MusicPlayer : MonoBehaviour
 {
     // Start is called before the first frame update
+    private static MusicPlayer ButtonAudio;
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
+    
+        DontDestroyOnLoad(this);
+
     }
 
     // Update is called once per frame

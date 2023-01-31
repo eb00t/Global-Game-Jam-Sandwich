@@ -3,17 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2e3c84a9-d7d5-4b7c-831f-b8461dbe1ee7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Global-Game-Jam-Sandwich/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Global-Game-Jam-Sandwich/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MusicPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MusicPlayer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Audio.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Audio.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BGM.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BGM.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI Building for the scenes!!!!!!!!/BonsaiScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UI Building for the scenes!!!!!!!!/BonsaiScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI Building for the scenes!!!!!!!!/LemonScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UI Building for the scenes!!!!!!!!/LemonScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu scenes/End screen scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu scenes/End screen scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI Building for the scenes!!!!!!!!/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UI Building for the scenes!!!!!!!!/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI Building for the scenes!!!!!!!!/OrchidScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UI Building for the scenes!!!!!!!!/OrchidScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI Building for the scenes!!!!!!!!/RoseScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UI Building for the scenes!!!!!!!!/RoseScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI Building for the scenes!!!!!!!!/TomatoScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UI Building for the scenes!!!!!!!!/TomatoScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ToothTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ToothTracker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Tooth.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Tooth.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoundCredits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SoundCredits.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +87,7 @@
       <workItem from="1675166190858" duration="597000" />
       <workItem from="1675194695849" duration="1617000" />
       <workItem from="1675199003138" duration="627000" />
+      <workItem from="1675201340971" duration="538000" />
     </task>
     <servers />
   </component>
