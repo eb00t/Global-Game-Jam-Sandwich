@@ -43,3 +43,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: LOADING (PLEASE KEEP ON TOP)
+    uniqueID: 3873596211
+    locked: 0
