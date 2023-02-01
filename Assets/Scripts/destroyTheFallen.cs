@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class destroyTheFallen : MonoBehaviour
@@ -11,6 +12,7 @@ public class destroyTheFallen : MonoBehaviour
     public int dontDestroy = 2;
     public int staticNumber = 2;
     public int badOnes = 4;
+    public int fuckinLoser = 6;
 
     public GameObject nextLvl;
 
@@ -21,21 +23,26 @@ public class destroyTheFallen : MonoBehaviour
         {
             badOnes--;
             Destroy(col.gameObject);
+            fuckinLoser--;
         }
 
         if (col.gameObject.CompareTag("stay"))
         {
             dontDestroy --;
             Destroy(col.gameObject);
+            fuckinLoser--;
         }
         
         if (badOnes <= 0 && dontDestroy == staticNumber)
         {
             nextLvl.SetActive(true);
         }
-        else
+
+        if (fuckinLoser ==1)
         {
-            nextLvl.SetActive(false);
+            Debug.Log("u lose");
         }
+        
+        
     }
 }
