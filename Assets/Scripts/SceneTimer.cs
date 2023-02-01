@@ -17,7 +17,6 @@ public class SceneTimer : MonoBehaviour
     {
         if (timerRunning == true && timeTotal >= 0)
         {
-            print(Time.time);
             if (Time.time >= log + step)
             {
                 log = Time.time;
