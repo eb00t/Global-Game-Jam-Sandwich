@@ -28,6 +28,39 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!244 &-6218122276918896642
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: e673bb229772f454e81f17244189b838
+  m_EffectName: Attenuation
+  m_MixLevel: ed326641d159ee44c95c53f6a8394484
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!243 &-5347620743044879888
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Siren
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 273de18ab1fb957419ce6fef868ed21a
+  m_Children: []
+  m_Volume: 3de23cd42f76eb64198e700786ddcf8e
+  m_Pitch: 10a9bdf86d8062c46a20bccface6b64a
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -6218122276918896642}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!243 &-4676615386052737595
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -69,6 +102,7 @@ AudioMixerController:
     - 6439988d6f769304a9cf5673a6758036
     - f7f59dc3f9a9cbc49a540e122e4ddf43
     - 854e7a2f3afc10941b37e7eb1a263c8c
+    - 273de18ab1fb957419ce6fef868ed21a
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -85,6 +119,7 @@ AudioMixerGroupController:
   - {fileID: 408151232324445191}
   - {fileID: -4676615386052737595}
   - {fileID: 141827296267769353}
+  - {fileID: -5347620743044879888}
   m_Volume: 140a81474c1bf00409659264f4ef6419
   m_Pitch: 337e38f388d80fc43850962b24dae2fc
   m_Send: 00000000000000000000000000000000
@@ -118,7 +153,8 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: a24698d16c3552b469bb2dcef00cd4fd
   m_FloatValues:
-    140a81474c1bf00409659264f4ef6419: -0.08374828
+    3de23cd42f76eb64198e700786ddcf8e: -45
+    140a81474c1bf00409659264f4ef6419: -0
     38818aef3a18a4042a4c2fd758a0b7a9: -15.421314
   m_TransitionOverrides: {}
 --- !u!243 &141827296267769353
