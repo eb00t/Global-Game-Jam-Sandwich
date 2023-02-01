@@ -43,9 +43,6 @@ public class destroyTheFallen : MonoBehaviour
             Debug.Log("u lose");
         }
         
-        else
-        {
-            nextLvl.SetActive(false);
-        }
+        
     }
 }
