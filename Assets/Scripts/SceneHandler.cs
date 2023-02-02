@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
@@ -6,6 +7,12 @@ public class SceneHandler : MonoBehaviour
 {
     public GameObject Lemon, Bonsai, Orchid, Rose, Tomato;
     public GameObject LemonSwitch,BonsaiSwitch, OrchidSwitch, RoseSwitch, TomatoSwitch;
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))

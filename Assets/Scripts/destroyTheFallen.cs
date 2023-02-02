@@ -33,7 +33,7 @@ public class destroyTheFallen : MonoBehaviour
             fuckinLoser--;
         }
         
-        if (badOnes <= 0 && dontDestroy == staticNumber)
+        if (badOnes <= 0 && dontDestroy >= staticNumber)
         {
             nextLvl.SetActive(true);
         }
