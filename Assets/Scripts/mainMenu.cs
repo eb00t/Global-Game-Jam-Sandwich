@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class mainMenu : MonoBehaviour
 {
+    private MusicPlayer MusicPlayer;
    public void PlayGame()
     {
         SceneManager.LoadScene(1);
@@ -19,6 +20,7 @@ public class mainMenu : MonoBehaviour
 
     public void ReplayGame()
     {
+        MusicPlayer.KILLMYASS();
         SceneManager.LoadScene(0);
     }
 
