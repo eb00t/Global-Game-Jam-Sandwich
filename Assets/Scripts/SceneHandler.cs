@@ -6,9 +6,11 @@ public class SceneHandler : MonoBehaviour
 {
     public GameObject Lemon, Bonsai, Orchid, Rose, Tomato;
     public GameObject LemonSwitch,BonsaiSwitch, OrchidSwitch, RoseSwitch, TomatoSwitch;
+    public GameObject menu;
+
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !menu.activeSelf)
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
