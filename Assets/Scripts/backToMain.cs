@@ -8,6 +8,6 @@ public class backToMain : MonoBehaviour
 {
     public void loadNextLvl()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 }

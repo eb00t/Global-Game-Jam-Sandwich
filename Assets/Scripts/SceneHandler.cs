@@ -10,11 +10,6 @@ public class SceneHandler : MonoBehaviour
     public static bool lemonCheck, bonsaiCheck, orchidCheck, roseCheck, tomatoCheck;
     public GameObject menu;
 
-    private void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }
-
     private void Start()
     {
         if (lemonCheck == true)
@@ -50,7 +45,7 @@ public class SceneHandler : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && menu.activeSelf == false)
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
