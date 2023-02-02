@@ -41,6 +41,11 @@ public class SceneHandler : MonoBehaviour
             Tomato.SetActive(false);
             TomatoSwitch.SetActive(true);
         }
+
+        if (lemonCheck == true && bonsaiCheck == true && orchidCheck == true && roseCheck == true && tomatoCheck == true)
+        {
+            SceneManager.LoadScene(10);
+        }
     }
 
     private void Update()

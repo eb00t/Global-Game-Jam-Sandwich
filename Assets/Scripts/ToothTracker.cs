@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ToothTracker : MonoBehaviour
 {
     public static int teethCollected;
+    
 
     // Update is called once per frame
     void Update()
@@ -27,7 +29,10 @@ public class ToothTracker : MonoBehaviour
                     aud.Play();
                     
                     //hit.collider.gameObject.SetActive(false);
-                    
+                    if (teethCollected >= 5)
+                    {
+                        SceneManager.LoadScene(11); 
+                    }
                 }
             }
         }
