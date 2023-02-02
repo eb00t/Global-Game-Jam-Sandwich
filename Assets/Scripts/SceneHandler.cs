@@ -7,10 +7,48 @@ public class SceneHandler : MonoBehaviour
 {
     public GameObject Lemon, Bonsai, Orchid, Rose, Tomato;
     public GameObject LemonSwitch,BonsaiSwitch, OrchidSwitch, RoseSwitch, TomatoSwitch;
+<<<<<<< Updated upstream
 
     private void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
+    }
+=======
+    public static bool lemonCheck, bonsaiCheck, orchidCheck, roseCheck, tomatoCheck;
+    public GameObject menu;
+>>>>>>> Stashed changes
+
+    private void Start()
+    {
+        if (lemonCheck == true)
+        {
+            Lemon.SetActive(false);
+            LemonSwitch.SetActive(true);
+        }
+
+        if (bonsaiCheck == true)
+        {
+            Bonsai.SetActive(false);
+            BonsaiSwitch.SetActive(true);
+        }
+
+        if (orchidCheck == true)
+        {
+            Orchid.SetActive(false);
+            OrchidSwitch.SetActive(true);
+        }
+
+        if (roseCheck == true)
+        {
+            Rose.SetActive(false);
+            RoseSwitch.SetActive(true);
+        }
+
+        if (tomatoCheck == true)
+        {
+            Tomato.SetActive(false);
+            TomatoSwitch.SetActive(true);
+        }
     }
 
     private void Update()
@@ -25,37 +63,32 @@ public class SceneHandler : MonoBehaviour
                 {
                     if (hit.collider.gameObject == Lemon)
                     {
-                        Lemon.SetActive(false);
+                        lemonCheck = true;
                         SceneManager.LoadScene(6);
-                        LemonSwitch.SetActive(true);
                     }
 
                     else if (hit.collider.gameObject == Bonsai)
                     {
-                        Bonsai.SetActive(false);
+                        bonsaiCheck = true;
                         SceneManager.LoadScene(5);
-                        BonsaiSwitch.SetActive(true);
                     }
 
                     else if (hit.collider.gameObject == Orchid)
                     {
-                        Orchid.SetActive(false);
+                        orchidCheck = true;
                         SceneManager.LoadScene(7);
-                        OrchidSwitch.SetActive(true);
                     }
 
                     else if (hit.collider.gameObject == Rose)
                     {
-                        Rose.SetActive(false);
+                        roseCheck = true;
                         SceneManager.LoadScene(8);
-                        RoseSwitch.SetActive(true);
                     }
 
                     else if (hit.collider.gameObject == Tomato)
                     {
-                        Tomato.SetActive(false);
+                        tomatoCheck = true;
                         SceneManager.LoadScene(9);
-                        TomatoSwitch.SetActive(true);
                     }
                 }
             }
