@@ -7,16 +7,13 @@ public class SceneHandler : MonoBehaviour
 {
     public GameObject Lemon, Bonsai, Orchid, Rose, Tomato;
     public GameObject LemonSwitch,BonsaiSwitch, OrchidSwitch, RoseSwitch, TomatoSwitch;
-<<<<<<< Updated upstream
+    public static bool lemonCheck, bonsaiCheck, orchidCheck, roseCheck, tomatoCheck;
+    public GameObject menu;
 
     private void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
     }
-=======
-    public static bool lemonCheck, bonsaiCheck, orchidCheck, roseCheck, tomatoCheck;
-    public GameObject menu;
->>>>>>> Stashed changes
 
     private void Start()
     {
