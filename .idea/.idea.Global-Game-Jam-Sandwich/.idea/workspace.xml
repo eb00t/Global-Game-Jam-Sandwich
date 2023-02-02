@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e3c84a9-d7d5-4b7c-831f-b8461dbe1ee7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Global-Game-Jam-Sandwich/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Global-Game-Jam-Sandwich/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu scenes/Start menu scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu scenes/Start menu scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Main.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Main.mixer" afterDir="false" />
-    </list>
+    <list default="true" id="2e3c84a9-d7d5-4b7c-831f-b8461dbe1ee7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +89,7 @@
       <workItem from="1675284536266" duration="1099000" />
       <workItem from="1675335080668" duration="6342000" />
       <workItem from="1675354173464" duration="2000" />
-      <workItem from="1675354243081" duration="817000" />
+      <workItem from="1675354243081" duration="1435000" />
     </task>
     <servers />
   </component>
