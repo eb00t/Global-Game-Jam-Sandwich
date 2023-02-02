@@ -15,6 +15,7 @@ public class destroyTheFallen : MonoBehaviour
     public int fuckinLoser = 6;
 
     public GameObject nextLvl;
+    public GameObject reload;
 
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -41,6 +42,7 @@ public class destroyTheFallen : MonoBehaviour
         if (fuckinLoser ==1)
         {
             Debug.Log("u lose");
+            reload.SetActive(true);
         }
         
         
