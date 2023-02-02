@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2e3c84a9-d7d5-4b7c-831f-b8461dbe1ee7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Global-Game-Jam-Sandwich/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Global-Game-Jam-Sandwich/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundRNG.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundRNG.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Siren.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Siren.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/sirenrotate.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/sirenrotate.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecretEnding.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SecretEnding.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/mainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/mainMenu.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,20 +26,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\eogha\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\eogha\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\eogha\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\eogha\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\eogha\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\eogha\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.1.17f1\Editor\Unity.exe" />
@@ -91,6 +95,7 @@
       <workItem from="1675267355543" duration="595000" />
       <workItem from="1675284536266" duration="1099000" />
       <workItem from="1675335080668" duration="5137000" />
+      <workItem from="1675345086242" duration="828000" />
     </task>
     <servers />
   </component>
