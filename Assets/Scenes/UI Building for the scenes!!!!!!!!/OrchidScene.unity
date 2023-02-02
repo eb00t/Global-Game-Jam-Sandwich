@@ -219,9 +219,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dontDestroy: 12
-  staticNumber: 12
+  staticNumber: 11
   badOnes: 5
-  fuckinLoser: 3
+  fuckinLoser: 23
   nextLvl: {fileID: 831060363}
 --- !u!61 &159212379
 BoxCollider2D:
