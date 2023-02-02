@@ -299,7 +299,7 @@ MonoBehaviour:
   badOnes: 5
   fuckinLoser: 23
   nextLvl: {fileID: 831060363}
-  reload: {fileID: 0}
+  reload: {fileID: 989487112}
 --- !u!61 &159212379
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1341,6 +1341,11 @@ PrefabInstance:
 --- !u!224 &989487111 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5249734989882657325, guid: 744bfce8fb760fe4d982c590911c5c61, type: 3}
+  m_PrefabInstance: {fileID: 989487110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &989487112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5249734989882657321, guid: 744bfce8fb760fe4d982c590911c5c61, type: 3}
   m_PrefabInstance: {fileID: 989487110}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1077449698
