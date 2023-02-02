@@ -6,8 +6,6 @@ public class ToothTracker : MonoBehaviour
 {
     public static int teethCollected;
 
-    public GameObject secretEnding;
-
     // Update is called once per frame
     void Update()
     {
@@ -29,11 +27,7 @@ public class ToothTracker : MonoBehaviour
                     aud.Play();
                     
                     //hit.collider.gameObject.SetActive(false);
-
-                    if (teethCollected >= 5)
-                    {
-                        secretEnding.SetActive(true);
-                    }
+                    
                 }
             }
         }
