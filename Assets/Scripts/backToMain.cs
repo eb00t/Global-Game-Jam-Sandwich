@@ -10,4 +10,9 @@ public class backToMain : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void reloadLvl()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
