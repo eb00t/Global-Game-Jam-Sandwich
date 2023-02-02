@@ -1,22 +1,20 @@
 Sound Credits
-https://freesound.org/s/63318/ - Page Turning
-https://freesound.org/s/445578/ - Cutting Sounds
-https://freesound.org/s/547017/ - Weird Sound
-https://freesound.org/s/52906/ - Siren
-https://freesound.org/s/453259/ - Chainsaw Idle
-https://freesound.org/s/118972/ - Chainsaw Attack
-https://freesound.org/s/463731/ - Other Chainsaw Sounds
-https://freesound.org/s/187119/ - Laser Sword
-https://freesound.org/s/609936/ - Fish
-https://freesound.org/s/332668/ - Thud
-https://freesound.org/s/536108/ - Click
-https://freesound.org/s/204030/ - Rustling Sound
+This game uses these sounds from freesound:
+"Page Turn - Please Turn Over (PTO) - paper_turn_over.wav" by flag2 (https://freesound.org/s/63318/) licensed under CC BY 3.0
+"Garden sheers cutting .wav" by lungimahlaresound (https://freesound.org/s/445578/) licensed under CC BY 3.0
+"Weird Gobble" by neopolitansixth (https://freesound.org/s/547017/) licensed under CC0 1.0
+"police siren.wav" by vlammenos (https://freesound.org/s/52906/) licensed under CC0 1.0
+"chainsaw start and idle.flac" by kyles (https://freesound.org/s/453259/) licensed under CC0 1.0
+"Chainsaw.wav" by esperri (https://freesound.org/s/118972/) licensed under CC0 1.0
+"Chainsaw Cut Loop" by DrinkingWindGames (https://freesound.org/s/463731/) licensed under CC BY 4.0
+"unfa's Laser Weapon Sounds" by unfa (https://freesound.org/s/187119/) licensed under CC0 1.0
+"Funny Running Footsteps Slip into Glass Bottles and Crash.wav" by WannyManny (https://freesound.org/s/609936/) licensed under CC0 1.0
+"big thud2.wav" by Reitanna (https://freesound.org/s/332668/) licensed under CC0 1.0
+"UI Click" by EminYILDIRIM (https://freesound.org/s/536108/) licensed under CC BY 4.0
+"Foliage_Rustling_001.wav" by duckduckpony (https://freesound.org/s/204030/) licensed under CC BY 3.0
 
 The following music was used for this media project:
 Music: Blue Ska by Kevin MacLeod
 Free download: https://filmmusic.io/song/3453-blue-ska
 License (CC BY 4.0): https://filmmusic.io/standard-license
-
-
-
 
