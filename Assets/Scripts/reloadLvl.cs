@@ -1,18 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class reloadLvl : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void QuitGame()
     {
-        
-    }
+        Debug.Log ("Quit Game!");
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Application.Quit();
     }
 }
