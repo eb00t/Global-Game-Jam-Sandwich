@@ -70,3 +70,18 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+OmoBuild/Game Jam Project.exe
+OmoBuild/Game Jam Project_Data/Managed/Mono.Security.dll
+OmoBuild/Game Jam Project_Data/Managed/mscorlib.dll
+OmoBuild/Game Jam Project_Data/Managed/System.Configuration.dll
+OmoBuild/Game Jam Project_Data/Managed/netstandard.dll
+OmoBuild/Game Jam Project_Data/Managed/System.Numerics.dll
+OmoBuild/Game Jam Project_Data/Managed/System.dll
+OmoBuild/Game Jam Project_Data/Managed/System.Core.dll
+OmoBuild/Game Jam Project_Data/Managed/System.Runtime.dll
+OmoBuild/Game Jam Project_Data/Managed/System.Xml.Linq.dll
+OmoBuild/Game Jam Project_Data/Managed/System.Xml.dll
+OmoBuild/Game Jam Project_Data/Managed/System.Runtime.Serialization.dll
+OmoBuild/UnityCrashHandler64.exe
+OmoBuild/UnityPlayer.dll
+OmoBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll
