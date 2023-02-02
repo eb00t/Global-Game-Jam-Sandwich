@@ -10,7 +10,7 @@ public class SoundRNG : MonoBehaviour
     public void RandomSound()
     {
         
-   rnd = Random.Range(1,3);
+   rnd = Random.Range(1,4);
   switch (rnd)
     {
        case 1:
