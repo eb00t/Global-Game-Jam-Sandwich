@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI Building for the scenes!!!!!!!!/TomatoScene.unity
     guid: 9a258f59f782c3e4f9cb3f0512a4d660
+  - enabled: 1
+    path: Assets/Scenes/ENDSCENE.unity
+    guid: 017d36708aa47604ab2a0ac3631eebee
+  - enabled: 1
+    path: Assets/Scenes/SecretEnding.unity
+    guid: 5af65204598d91c4fa7d6b674e8460be
   m_configObjects: {}
