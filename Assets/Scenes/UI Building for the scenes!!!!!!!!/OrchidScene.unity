@@ -297,7 +297,7 @@ MonoBehaviour:
   dontDestroy: 12
   staticNumber: 11
   badOnes: 5
-  fuckinLoser: 23
+  fuckinLoser: 15
   nextLvl: {fileID: 831060363}
   reload: {fileID: 989487112}
 --- !u!61 &159212379
@@ -1147,11 +1147,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 468164314326614473, guid: 5caa27708d1004c7bb417c1b24ffd699, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.4
+      value: -0.25
       objectReference: {fileID: 0}
     - target: {fileID: 468164314326614473, guid: 5caa27708d1004c7bb417c1b24ffd699, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.1
+      value: -4.18
       objectReference: {fileID: 0}
     - target: {fileID: 468164314326614473, guid: 5caa27708d1004c7bb417c1b24ffd699, type: 3}
       propertyPath: m_LocalPosition.z

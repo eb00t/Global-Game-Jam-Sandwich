@@ -1995,11 +1995,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 998185382541869656, guid: ea1a9b7472a6ed94f86eb492f286516e, type: 3}
       propertyPath: fuckinLoser
-      value: 45
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 998185382541869656, guid: ea1a9b7472a6ed94f86eb492f286516e, type: 3}
       propertyPath: staticNumber
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 998185382541869657, guid: ea1a9b7472a6ed94f86eb492f286516e, type: 3}
       propertyPath: m_RootOrder
